@@ -1,0 +1,82 @@
+@import url(reset.css);
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+.header{
+    padding: 46px 120px 91px 120px;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {}
+
+.menu {
+    display: flex;
+    gap: 50px;
+   
+}
+.menu li a{
+    color: #0F001A;
+font-size: 18px;
+font-weight: 400;
+text-transform: capitalize;
+
+}
+.menu li a.active{
+    color: #4A99D3;
+font-size: 18px;
+font-weight: 500;
+
+}
+
+.hero {
+    display: flex;
+    gap: 123px;
+    align-items: center;
+    padding-left: 109px;
+    justify-content: space-between;
+    padding-right: 131px;
+}
+.text {
+}
+.hero-title {
+    width: 493px;
+    color: #260041;
+font-size: 50px;
+line-height: 70px; /* 140% */
+letter-spacing: 1px;
+padding-bottom: 14px;
+}
+span{
+    color: #D81B60;
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.hero-text {
+    width: 636px;
+    color: #260041;
+font-size: 20px;
+line-height: 36px; /* 180% */
+}
+.btn{
+    margin-top: 60px;
+}
+.btn button{
+    border-radius: 5px;
+background: #4A99D3;
+padding: 14px 23px;
+gap: 20px;
+}
+.img {
+}
+.container .key{
+    display: flex;
+    gap: 20px;
+}
